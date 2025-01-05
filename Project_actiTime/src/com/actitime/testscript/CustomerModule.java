@@ -33,6 +33,7 @@ public class CustomerModule extends BaseClass {
 		boolean k = driver.findElement(By.xpath("//div[@class='titleEditButtonContainer']/div[@class='title']")).isDisplayed();
 		if(k==true)
 		{
+			System.out.println("hii");
 			System.out.println("done");
 		}
 		else
